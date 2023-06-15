@@ -1,105 +1,283 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content>
-<meta name="author" content>
-<title>@jmonte - AppTuts.bio</title>
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="AppTuts.bio">
-<meta property="og:url" content="https://apptuts.bio/jmonte" />
-<meta property="og:title" content="@jmonte">
-<meta property="og:description" content="Aqui você encontra o que precisa com os melhores preços. Nossa equipe de consultores pronta para atender você!">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ryck-developer/Marilia-Chaves-ADV@main/imagens/350996467_953926525818723_6855045932517683157_n.jpg">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content />
+    <meta name="author" content />
+    <title>@jmonte - AppTuts.bio</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AppTuts.bio" />
+    <meta property="og:url" content="https://apptuts.bio/jmonte" />
+    <meta property="og:title" content="@jmonte" />
+    <meta
+      property="og:description"
+      content="Aqui você encontra o que precisa com os melhores preços. Nossa equipe de consultores pronta para atender você!"
+    />
+    <meta
+      property="og:image"
+      content="https://apptuts.bio/app/biblioteca/foto-perfil/20220617153649-132529.png"
+    />
 
-<link href="https://apptuts.bio/resources/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link
+      href="https://apptuts.bio/resources/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
 
-<link href="https://apptuts.bio/resources/css/sb-admin-2.css?a=2023061515" rel="stylesheet">
-<link href="https://apptuts.bio/resources/css/theme-0.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"><style type="text/css">body {font-family: 'Ubuntu', sans-serif !important;}body a{font-family: 'Ubuntu', sans-serif !important;}body p{font-family: 'Ubuntu', sans-serif !important;}body span{font-family: 'Ubuntu', sans-serif !important;}body small{font-family: 'Ubuntu', sans-serif !important;}body h1{font-family: 'Ubuntu', sans-serif !important;}body h2{font-family: 'Ubuntu', sans-serif !important;}body h3{font-family: 'Ubuntu', sans-serif !important;}body h4{font-family: 'Ubuntu', sans-serif !important;}body h5{font-family: 'Ubuntu', sans-serif !important;}body h6{font-family: 'Ubuntu', sans-serif !important;}body button{font-family: 'Ubuntu', sans-serif !important;}body {
-                background: #d00c0b ;
-                background-image: url('https://apptuts.bio/app/biblioteca/foto-background/20220617153257-132529.png');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-            }
-            .preview-user-name, .preview-titulo, .preview-descricao, .preview-social-icons a, .footer p {color: #ffffff !important;}
-            .botao-default{ border-radius: 2rem; color: #ff0700; background-color: #fffbfb; border-color: #fffbfb; }.botao-default:hover{ color: #ff0700 !important; }.botao-destaque{ border-radius: 2rem; color: #ff0011; background-color: ##aa00ff; border-color: ##aa00ff; }.botao-destaque:hover { color: #ff0011 !important; }</style>
+    <link
+      href="https://apptuts.bio/resources/css/sb-admin-2.css?a=2023061515"
+      rel="stylesheet"
+    />
+    <link
+      href="https://apptuts.bio/resources/css/theme-0.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      body {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body a {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body p {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body span {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body small {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body h1 {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body h2 {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body h3 {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body h4 {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body h5 {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body h6 {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body button {
+        font-family: 'Ubuntu', sans-serif !important;
+      }
+      body {
+        background: #d00c0b;
+        background-image: url('https://apptuts.bio/app/biblioteca/foto-background/20220617153257-132529.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .preview-user-name,
+      .preview-titulo,
+      .preview-descricao,
+      .preview-social-icons a,
+      .footer p {
+        color: #ffffff !important;
+      }
+      .botao-default {
+        border-radius: 2rem;
+        color: #ff0700;
+        background-color: #fffbfb;
+        border-color: #fffbfb;
+      }
+      .botao-default:hover {
+        color: #ff0700 !important;
+      }
+      .botao-destaque {
+        border-radius: 2rem;
+        color: #ff0011;
+        background-color: ##aa00ff;
+        border-color: ##aa00ff;
+      }
+      .botao-destaque:hover {
+        color: #ff0011 !important;
+      }
+    </style>
 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-P942ZW8');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-P942ZW8');
+    </script>
+  </head>
+  <body id="page-top">
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-P942ZW8"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
 
-</head>
-<body id="page-top">
+    <span id="app_url" data-url="https://apptuts.bio/"></span>
+    <div id="wrapper" class="pb-2" style="overflow-x: hidden">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 pb-5">
+            <div class="row mb-2 mt-3 text-center">
+              <div class="col-12 pt-3 pt-md-5">
+                <img
+                  class="img-profile img-profile-preview rounded-circle"
+                  src="https://cdn.jsdelivr.net/gh/ryck-developer/Marilia-Chaves-ADV@main/imagens/350996467_953926525818723_6855045932517683157_n.jpg"
+                  width="100px"
+                  heigth="100px"
+                />
+              </div>
 
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P942ZW8"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+              <div class="col-12">
+                <p class="mt-2 preview-user-name">
+                  <span class="font-weight-bold">@mariliachavesluz </span>
+                </p>
+                <p class="preview-descricao">
+                  Não deixe seu futuro legal nas mãos de qualquer advogado.
+                  Escolha a experiência, a excelência, a dedicação e o
+                  comprometimento da nossa equipe para garantir o melhor
+                  resultado possível em seu caso.
+                </p>
+              </div>
 
-<span id="app_url" data-url="https://apptuts.bio/"></span>
-<div id="wrapper" class="pb-2" style="overflow-x: hidden;">
-<div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-12 col-md-4 pb-5">
-<div class="row mb-2 mt-3 text-center">
+              <div class="col-12 preview-social-icons">
+                <a href="https://www.facebook.com/JMonteOficial" target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://instagram.com/jmonteoficial" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/search?q=jmonteoficial&t=1655491109790"
+                  target="_blank"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a href="https://www.youtube.com/tvjmonte" target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  href="/cdn-cgi/l/email-protection#cba8a4a5bfaabfa48ba1a6a4a5bfaee5a8a4a6e5a9b9"
+                  target="_blank"
+                  ><i class="far fa-envelope"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12" style="min-height: 43px !important">
+                <a
+                  href="https://api.whatsapp.com/send?phone=558633010000&text="
+                  data-id_item="352405"
+                  data-id_usuario="132529"
+                  class="botao botao-default"
+                  style="padding-left: 40px"
+                  ><i
+                    class="fab fa-whatsapp"
+                    style="
+                      position: absolute;
+                      left: 30px;
+                      margin-top: -1px;
+                      font-size: 24px;
+                      font-weight: normal;
+                    "
+                  ></i>
+                  FALE CONOSCO</a
+                >
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12" style="min-height: 43px !important">
+                <a
+                  href="https://jmonte.com.br"
+                  data-id_item="352406"
+                  data-id_usuario="132529"
+                  class="botao botao-default"
+                  >COMPRE AGORA</a
+                >
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12" style="min-height: 43px !important">
+                <a
+                  href="https://ofertas.lojajmonte.com.br/ferias-reformando-j-monte"
+                  data-id_item="380486"
+                  data-id_usuario="132529"
+                  class="botao botao-default"
+                  >CONFIRA NOSSAS OFERTAS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 mt-5 text-center footer">
+            <img
+              src="https://apptuts.bio/app/biblioteca/foto-marca/20211218121138-132529.png"
+              style="max-height: 42px"
+            />
+            <p class="small text-center">
+              <a
+                href="https://apptuts.bio/denunciar/perfil?p=jmonte&token=410639-121770-132529"
+                >Denunciar abuso</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div class="col-12 pt-3 pt-md-5">
-<img class="img-profile img-profile-preview rounded-circle" src="https://apptuts.bio/app/biblioteca/foto-perfil/20220617153649-132529.png" width="100px" heigth="100px">
-</div>
+    <a class="scroll-to-top rounded" href="#page-top"
+      ><i class="fas fa-angle-up"></i
+    ></a>
 
-<div class="col-12">
-<p class="mt-2 preview-user-name"> <span class="font-weight-bold">@mariliachavesluz
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://apptuts.bio/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</span>
-</p>
-<p class="preview-titulo">A sua loja de materiais de construção!</p>
-<p class="preview-descricao">Aqui você encontra o que precisa com os melhores preços. Nossa equipe de consultores pronta para atender você!</p>
-</div>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
-<div class="col-12 preview-social-icons">
-<a href="https://www.facebook.com/JMonteOficial" target="_blank"><i class="fab fa-facebook"></i></a> <a href="https://instagram.com/jmonteoficial" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://www.tiktok.com/search?q=jmonteoficial&t=1655491109790" target="_blank"><i class="fab fa-tiktok"></i></a> <a href="https://www.youtube.com/tvjmonte" target="_blank"><i class="fab fa-youtube"></i></a> <a href="/cdn-cgi/l/email-protection#cba8a4a5bfaabfa48ba1a6a4a5bfaee5a8a4a6e5a9b9" target="_blank"><i class="far fa-envelope"></i></a> </div>
-</div>
-<div class="row mt-4">
-<div class="col-12" style="min-height: 43px !important;">
-<a href="https://api.whatsapp.com/send?phone=558633010000&text=" data-id_item="352405" data-id_usuario="132529" class="botao botao-default " style="padding-left: 40px;"><i class="fab fa-whatsapp" style="position: absolute; left: 30px; margin-top: -1px; font-size: 24px; font-weight: normal;"></i> FALE CONOSCO</a>
-</div>
-</div><div class="row mt-4">
-<div class="col-12" style="min-height: 43px !important;">
-<a href="https://jmonte.com.br" data-id_item="352406" data-id_usuario="132529" class="botao botao-default ">COMPRE AGORA</a>
-</div>
-</div><div class="row mt-4">
-<div class="col-12" style="min-height: 43px !important;">
-<a href="https://ofertas.lojajmonte.com.br/ferias-reformando-j-monte" data-id_item="380486" data-id_usuario="132529" class="botao botao-default ">CONFIRA NOSSAS OFERTAS</a>
-</div>
-</div>
-</div>
-</div>
-<div class="row justify-content-center">
-<div class="col-12 col-md-4 mt-5 text-center footer">
-<img src="https://apptuts.bio/app/biblioteca/foto-marca/20211218121138-132529.png" style="max-height: 42px;">
-<p class="small text-center"><a href="https://apptuts.bio/denunciar/perfil?p=jmonte&token=410639-121770-132529">Denunciar abuso</a></p>
-</div>
-</div>
-</div>
-</div>
-
-<a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://apptuts.bio/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-
-<script src="https://apptuts.bio/resources/js/sb-admin-2.js?a=2023061515"></script>
-<script src="https://apptuts.bio/resources/js/application.js?a=2023061515"></script>
-</body>
+    <script src="https://apptuts.bio/resources/js/sb-admin-2.js?a=2023061515"></script>
+    <script src="https://apptuts.bio/resources/js/application.js?a=2023061515"></script>
+  </body>
 </html>
