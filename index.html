@@ -98,6 +98,16 @@
         background-attachment: fixed;
       }
 
+      .copied-message {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: #000;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
       .preview-user-name,
       .preview-titulo,
       .preview-descricao,
@@ -169,6 +179,8 @@
                 </p>
                 <p class="preview-descricao">
                   ⚖️Especialista em Direito das Famílias e Sucessões🎯
+                </p>
+                <p class="preview-descricao">
                   ⚖️Divórcio | Pensão Alimentícia | Guarda | Medida Protetiva
                 </p>
               </div>
@@ -179,21 +191,18 @@
                   target="_blank"
                   ><i class="fab fa-instagram"></i
                 ></a>
+
                 <a
-                  href="https://www.tiktok.com/search?q=jmonteoficial&t=1655491109790"
-                  target="_blank"
-                  ><i class="fab fa-tiktok"></i
+                  href="#"
+                  onclick="copyToClipboard('mariliachavesadvogada@gmail.com'); showCopiedMessage(); return false;"
+                  ><i class="far fa-envelope"></i
                 ></a>
-                <a href="https://www.youtube.com/tvjmonte" target="_blank"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="#" onclick="copyToClipboard('mariliachavesadvogada@gmail.com'); showCopiedMessage(); return false;"><i class="far fa-envelope"></i></a>
               </div>
             </div>
             <div class="row mt-4">
               <div class="col-12" style="min-height: 43px !important">
                 <a
-                  href="https://api.whatsapp.com/send?phone=558633010000&text="
+                  href="https://api.whatsapp.com/send?phone=5586981358867&text=CONSULTORIA ONLINE"
                   data-id_item="352405"
                   data-id_usuario="132529"
                   class="botao botao-default"
@@ -208,7 +217,29 @@
                       font-weight: normal;
                     "
                   ></i>
-                  FALE CONOSCO</a
+                  CONSULTORIA ONLINE</a
+                >
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12" style="min-height: 43px !important">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5586981358867&text=CONSULTORIA PRESENCIAL"
+                  data-id_item="352405"
+                  data-id_usuario="132529"
+                  class="botao botao-default"
+                  style="padding-left: 40px"
+                  ><i
+                    class="fab fa-whatsapp"
+                    style="
+                      position: absolute;
+                      left: 30px;
+                      margin-top: -1px;
+                      font-size: 24px;
+                      font-weight: normal;
+                    "
+                  ></i>
+                  CONSULTORIA PRESENCIAL</a
                 >
               </div>
             </div>
@@ -238,20 +269,31 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-md-4 mt-5 text-center footer">
-            <img
-              src="https://apptuts.bio/app/biblioteca/foto-marca/20211218121138-132529.png"
-              style="max-height: 42px"
-            />
-            <p class="small text-center">
-              <a
-                href="https://apptuts.bio/denunciar/perfil?p=jmonte&token=410639-121770-132529"
-                >Denunciar abuso</a
-              >
-            </p>
+            <p>Horário de atendimento: ⏰Seg à Sex 09h às 18h</p>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      function copyToClipboard(text) {
+        var textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+      }
+
+      function showCopiedMessage() {
+        var message = document.createElement('span');
+        message.innerHTML = 'E-mail copiado!';
+        message.classList.add('copied-message');
+        document.body.appendChild(message);
+        setTimeout(function () {
+          document.body.removeChild(message);
+        }, 2000);
+      }
+    </script>
 
     <a class="scroll-to-top rounded" href="#page-top"
       ><i class="fas fa-angle-up"></i
