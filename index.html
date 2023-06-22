@@ -52,6 +52,25 @@
       rel="stylesheet"
     />
     <style type="text/css">
+        :root {
+          --gradient-rosa: linear-gradient(
+            to right,
+            rgba(186, 19, 37, 0.7),
+            rgba(118, 63, 106, 0.7)
+          );
+          --gradient-azul: linear-gradient(
+            to right,
+            rgba(27, 44, 87, 0.7),
+            rgba(27, 53, 121, 0.7)
+          );
+        }
+
+        body {
+          background-image: var(--gradient-azul), url('https://i.imgur.com/ppGV2ea.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
         body {
           font-family: 'Ubuntu', sans-serif !important;
         }
@@ -89,18 +108,7 @@
           font-family: 'Ubuntu', sans-serif !important;
         }
 
-        body {
-          background: #d00c0b;
-          background-image: linear-gradient(
-              to right,
-              rgba(186, 19, 37, 0.7),
-              rgba(118, 63, 106, 0.7)
-            ),
-            url('https://i.imgur.com/ppGV2ea.jpg');
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-        }
+        
 
         .copied-message {
           position: fixed;
