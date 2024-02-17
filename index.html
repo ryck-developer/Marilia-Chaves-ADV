@@ -63,10 +63,17 @@
             rgba(27, 44, 87, 0.7),
             rgba(27, 53, 121, 0.7)
           );
+
+          --cor-azul-escuro: linear-gradient(
+            to right,
+            rgba(3, 11, 84, 0.91),
+            rgba(3, 11, 84, 0.91)
+          );
+
         }
 
         body {
-          background-image: var(--gradient-azul), url('https://i.imgur.com/ppGV2ea.jpg');
+          background-image: var(--cor-azul-escuro), url('https://i.imgur.com/ppGV2ea.jpg');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -108,7 +115,7 @@
           font-family: 'Ubuntu', sans-serif !important;
         }
 
-        
+
 
         .copied-message {
           position: fixed;
@@ -163,34 +170,37 @@
               <div class="col-12 pt-3 pt-md-5">
                 <img
                   class="img-profile img-profile-preview rounded-circle"
-                  src="https://i.imgur.com/G2wT0FN.jpg"
-                  width="100"
-                  heigth="100"
+                  src="https://i.imgur.com/xPa9ezt.jpg"
+                  width="200"
+                  heigth="200"
                   alt="Marilia Chaves Luz - Especialista em Direito das Famílias e Sucessões"
                 />
               </div>
 
               <div class="col-12">
                 <p class="mt-2 preview-user-name">
-                  <span class="font-weight-bold" style="color: #ffff85"
-                    >@mariliachavesluz
+                  <span
+                    class="font-weight-bold"
+                    style="color: #ffff85 !important; font-size: 17px"
+                    >MARILIA CHAVES LUZ
                   </span>
                 </p>
-                <p class="preview-descricao">
+                <p
+                  class="preview-descricao"
+                  style="color: #ffff85 !important; font-size: 17px"
+                >
                   <i
                     class="fa fa-balance-scale"
                     aria-hidden="true"
-                    style="color: #ffff85"
+                    style="color: #ffff85; font-size: 17px"
                   ></i>
-                  Especialista em Direito das Famílias e Sucessões
+                  ADVOGADA CRIMINALISTA
                 </p>
-                <p class="preview-descricao">
-                  <i
-                    class="fa fa-balance-scale"
-                    aria-hidden="true"
-                    style="color: #ffff85"
-                  ></i>
-                  Divórcio | Pensão Alimentícia | Guarda | Medida Protetiva
+                <p
+                  class="preview-descricao"
+                  style="color: white !important; font-size: 13px"
+                >
+                  Tiago 3:18: "Os que semeiam paz colherão justiça"
                 </p>
               </div>
 
@@ -288,8 +298,7 @@
       }
     </script>
 
-    <a class="scroll-to-top rounded" href="#page-top"
-    aria-label="Voltar"
+    <a class="scroll-to-top rounded" href="#page-top" aria-label="Voltar"
       ><i class="fas fa-angle-up"></i
     ></a>
 
